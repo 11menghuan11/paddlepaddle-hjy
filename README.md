@@ -12,7 +12,7 @@ ETM-Face is a practical single-stage face detector.
 3. Organise the WIDERFACE dataset directory under ``ETM-Face/data`` as follows:
 
 ```Shell
-  data/widerface/
+  data/widerface/    
     train/
       images/
       label.txt
@@ -22,6 +22,14 @@ ETM-Face is a practical single-stage face detector.
     test/
       images/
       label.txt
+```
+4. Organise the  dataset directory under ``ETM-Face/fddb`` as follows:
+
+```Shell
+  fddb/
+    FDDB-folds/
+    originalPics/
+    result1   
 ```
 
 ## Install
@@ -42,8 +50,7 @@ Please check ``train1.py`` for training.
 
 ## Evaluation
 
-1. Pretrained Model:  WIDERFace_epoch_Final.pth under ``ETM-Face/weights`` is a medium size model with Res2Net50 backbone.
-It can output face bounding boxes in a single forward pass.
+1. Download our ETM-Face model [baidu cloud](https://pan.baidu.com/s/1KHZhEXlOnCiXVw9nOVCWgA) (提取码：roy0) trained on WIDER FACE training set to `$DSFD_ROOT/weights/`.
 
 2. Evaluate the trained model via `./widerface_val.py` on WIDER FACE.
 ```
