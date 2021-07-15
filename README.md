@@ -50,7 +50,7 @@ Please check ``train1.py`` for training.
 
 ## Evaluation
 
-1. Download our ETM-Face model [baidu cloud](https://pan.baidu.com/s/1KHZhEXlOnCiXVw9nOVCWgA) (提取码：roy0) trained on WIDER FACE training set to `$DSFD_ROOT/weights/`.
+1. Download our ETM-Face model [baidu cloud](https://pan.baidu.com/s/1KHZhEXlOnCiXVw9nOVCWgA) (提取码：roy0) trained on WIDER FACE training set to `$ETM-Face_ROOT/weights/`.
 
 2. Evaluate the trained model via `./widerface_val.py` on WIDER FACE.
 ```
